@@ -50,3 +50,110 @@
     border-radius: 25px;
     padding: 0 0 0 0;margin: 0 0 0 0;
 }
+.sab_nav_bar{
+    width: 100%;
+    background-color: #023C38;
+    height: 85vh;
+    position: relative;
+    padding: 1px 0px 0px 0px;
+}
+.text{
+    width: 47rem;
+    height: 55vh;
+    position: relative;
+    left: 15rem;
+    font-size: 22px;
+}
+.Need_a_word{
+    width: 12rem;
+    height: 10vh;
+    background-color: #7CD5C4;
+    padding: 1px 0px 0px 0px;
+}
+.cercle1{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -5px;
+    background-image: url(assets/photo/Ellipse\ 5.png);
+}
+.cercle2{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -5px;
+    background-image: url(assets/photo/Ellipse\ 4.png);
+}
+.cercle3{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -5px;
+    background-image: url(assets/photo/Ellipse\ 7.png);
+}
+.cercle4{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -5px;
+    background-image: url(assets/photo/Ellipse\ 6.png);
+}
+.pers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 4rem;
+    right: 5rem;
+}
+.happy{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 7rem;
+    bottom: 8rem;
+    color: white;
+}
+.car{
+    width: 25rem;
+    height: 77vh;
+    display: flex;
+    position: relative;
+    left: 42rem;
+    bottom: 27rem;
+    background-image: url(assets/photo/Rectangle\ 2.png);
+    border-radius: 69px 0 67px 72px;
+    justify-content: center;
+    top: -31rem;
+
+}
+.bnb{
+    width: 100%;
+    height: 17vh;
+    position: relative;
+    top: 10rem;
+}
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #023C38;
+}
+.jalil{
+    width: 15rem;
+    height: 7vh;
+    background-color: white;
+    position: relative;
+    top: 15rem;
+    right: 13rem;
+    border-radius: 27px 0px 24px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
