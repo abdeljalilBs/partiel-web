@@ -212,6 +212,121 @@
 .trait {
     width: 150px;
     height: 2px;
-    background-color: black;
+    background-color: green ;
     margin: 20px 0;
+    
+} 
+:root {
+    --main-padding: 1rem;
+    --main-font: 'sans-serif';
+    --nav-height: 10vh;
+    --text-color: white;
+    --btn-radius: 25px;
+    --btn-bg: white;
+    --bg-main: blueviolet;
+    --bg-dark: #023C38;
+    --highlight-color: #7CD5C4;
+}
+@media (max-width: 768px) {
+    .nav_bar {
+        flex-direction: column;
+        height: auto;
+        padding: var(--main-padding);
+        gap: 1rem;
+    }
+
+    .OptiFolio {
+        left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .home {
+        width: 100%;
+        justify-content: center;
+        height: auto;
+    }
+
+    .home ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .Say_hi {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        border-radius: var(--btn-radius);
+    }
+
+    .sab_nav_bar {
+        flex-direction: column;
+        height: auto;
+        padding: var(--main-padding);
+    }
+
+    .text {
+        width: 100%;
+        left: 0;
+        font-size: 18px;
+    }
+
+    .need {
+        height: auto;
+    }
+
+    .car {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .bnb {
+        position: static;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .main2 {
+        flex-direction: column;
+        height: auto;
+        padding: var(--main-padding);
+    }
+
+    .left, .right {
+        width: 100%;
+        height: auto;
+        margin: 1rem 0;
+    }
+
+    .right h1,
+    .parag1,
+    .learn {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .learn {
+        margin: 1rem auto;
+    }
+
+    .pers {
+        right: 0;
+        bottom: 0;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .happy {
+        position: static;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .jalil {
+        position: static;
+        margin-top: 2rem;
+    }
 }
